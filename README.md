@@ -1,4 +1,4 @@
-# Smart Resume Eligibility Analyzer 
+# Resume Eligibility Score Analyzer 
 
 A simple yet powerful tool to analyze candidate resumes based on their technical skills. Built with **Python** and **Gradio**.
 
