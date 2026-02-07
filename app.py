@@ -22,7 +22,7 @@ with gr.Blocks(title="Smart Resume Eligibility Analyzer") as app:
             # Input: File Upload
             file_input = gr.File(
                 label="Upload Resume",
-                file_types=[".txt", ".pdf", ".doc", ".docx"],
+                file_types=[".txt"],
                 type="filepath" # Ensures we get a path
             )
             submit_btn = gr.Button("Analyze Resume", variant="primary")
