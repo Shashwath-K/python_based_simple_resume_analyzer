@@ -9,7 +9,7 @@ def process_resume(file_obj):
         return 0, "INVALID RESUME FILE"
     
     # file_obj is a str path when type="filepath"
-    return check_eligibility(file_obj)
+    return check_eligibility(file_obj) # Delegate to analyzer logic
 
 # Create Gradio Interface
 with gr.Blocks(title="Smart Resume Eligibility Analyzer") as app:
