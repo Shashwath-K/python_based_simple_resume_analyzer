@@ -1,5 +1,6 @@
 import os
 
+# Resume eligibility checker
 def check_eligibility(file_path):
     if not file_path:
         return 0, "INVALID RESUME FILE"
